@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CalculadoraMVC</string>
+    <string name="valor1">Inteiro 1</string>
+    <string name="valor2">Inteiro 2</string>
+    <string name="operador">+,-,*,/</string>
+    <string name="resultado">Resultado</string>
+    <string name="calcular">Calcular</string>
+</resources>
