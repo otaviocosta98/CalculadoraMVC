@@ -9,6 +9,6 @@ public interface MainView {
     String getValor1();
     String getValor2();
     String getOperador();
+    String getResultado();
     void setResultado(String resultado);
-
 }

@@ -26,18 +26,27 @@ public class MainActivity extends Activity implements MainView {
         presenter.calculo();
     }
 
+    @Override
     public String getValor1(){
         return valor1.getText().toString();
     }
 
+    @Override
     public String getValor2(){
         return valor2.getText().toString();
     }
 
+    @Override
     public String getOperador(){
         return operador.getText().toString();
     }
 
+    @Override
+    public String getResultado() {
+        return this.resultado.getText().toString();
+    }
+
+    @Override
     public void setResultado(String resultado) {
         this.resultado.setText(resultado);
     }

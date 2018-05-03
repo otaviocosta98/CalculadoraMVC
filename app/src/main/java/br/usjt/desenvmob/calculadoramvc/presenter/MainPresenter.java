@@ -58,4 +58,8 @@ public class MainPresenter implements Presenter {
         model.calculo();
         view.setResultado(model.getResultado());
     }
+
+    public String getResultado(){
+        return model.getResultado();
+    }
 }

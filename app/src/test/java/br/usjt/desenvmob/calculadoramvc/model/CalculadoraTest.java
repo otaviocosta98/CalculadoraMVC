@@ -1,4 +1,4 @@
-package br.usjt.desenvmob.calculadoramvc;
+package br.usjt.desenvmob.calculadoramvc.model;
 
 import org.junit.Test;
 
@@ -6,7 +6,7 @@ import br.usjt.desenvmob.calculadoramvc.model.Calculadora;
 
 import static junit.framework.Assert.assertEquals;
 
-public class TestCalculadora {
+public class CalculadoraTest {
     @Test
     public void testaCalculadora(){
         Calculadora model = new Calculadora();
